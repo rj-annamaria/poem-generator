@@ -5,6 +5,10 @@ body {
     rgba(255, 255, 255, 1) 50%,
     rgba(51, 218, 21, 0.8827906162464986) 100%
   );
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans";
 }
@@ -93,11 +97,7 @@ footer {
   text-align: center;
   font-size: 16px;
   margin-top: 30px;
-  padding: 10px;
-  background-color: rgba(245, 245, 245, 0.973);
-  border-radius: 15px;
 }
-
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;
 }
