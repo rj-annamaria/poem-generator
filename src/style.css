@@ -1,5 +1,10 @@
 body {
-  background-color: #e4fae5bb;
+  background: linear-gradient(
+    150deg,
+    rgba(241, 19, 8, 0.835171568627451) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(51, 218, 21, 0.8827906162464986) 100%
+  );
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans";
 }
@@ -47,7 +52,7 @@ form {
 }
 
 .instructions {
-  padding: 16px;
+  padding: 10px;
   border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
   font-size: 16px;
@@ -86,11 +91,10 @@ form {
 
 footer {
   text-align: center;
-  font-size: 13px;
+  font-size: 16px;
   margin-top: 30px;
   padding: 10px;
   background-color: rgba(245, 245, 245, 0.973);
-
   border-radius: 15px;
 }
 
